@@ -35,6 +35,8 @@ declare global {
         password_min_entropy: string | number;
         palette?: string;
         wizard_step?: string;
+        barongUploadSizeMinRange?: string;
+        barongUploadSizeMaxRange?: string;
     }
 
     interface Window {
