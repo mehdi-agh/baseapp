@@ -28,6 +28,7 @@ const RedditIcon = require('../../assets/images/landing/social/Reddit.svg');
 const FacebookIcon = require('../../assets/images/landing/social/Facebook.svg');
 const MediumIcon = require('../../assets/images/landing/social/Medium.svg');
 const CoinMarketIcon = require('../../assets/images/landing/social/CoinMarket.svg');
+const Slide1 = require('../../assets/images/landing/20up.jpg');
 
 
 interface ReduxProps {
@@ -97,6 +98,9 @@ class Landing extends React.Component<Props> {
         return (
             <div className="pg-landing-screen__market-info">
                 <div className="pg-landing-screen__market-info__wrap">
+                    <center>
+                    <img src="../../assets/images/landing/20up.jpg" alt="Slide 1">
+                        </center>
                     <div className="pg-landing-screen__market-info__wrap__title">
                         <h1>{this.translate('page.body.landing.marketInfo.title.text1')}</h1>
                         <h1>{this.translate('page.body.landing.marketInfo.title.text2')}</h1>
