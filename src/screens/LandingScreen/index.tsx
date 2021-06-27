@@ -99,7 +99,7 @@ class Landing extends React.Component<Props> {
             <div className="pg-landing-screen__market-info">
                 <div className="pg-landing-screen__market-info__wrap">
                     <center>
-                    <img src="../../assets/images/landing/20up.jpg" alt="Slide 1">
+                        <img src="../../assets/images/landing/20up.jpg" alt="Slide 1"></img>
                         </center>
                     <div className="pg-landing-screen__market-info__wrap__title">
                         <h1>{this.translate('page.body.landing.marketInfo.title.text1')}</h1>
