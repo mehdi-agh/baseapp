@@ -7,6 +7,16 @@ import { IntlProps } from '../../';
 import { LogoIcon } from '../../assets/images/LogoIcon';
 import { MarketsTable } from '../../containers';
 import { toggleColorTheme } from '../../helpers';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper.min.css";
+import "swiper/components/effect-fade/effect-fade.min.css"
+import "swiper/components/navigation/navigation.min.css"
+import "swiper/components/pagination/pagination.min.css"
+import SwiperCore, {
+  EffectFade,Navigation,Pagination
+} from 'swiper/core';
+
+
 import {
     RootState,
     selectCurrentColorTheme,
@@ -36,6 +46,7 @@ interface ReduxProps {
 }
 
 type Props = ReduxProps & RouteProps & IntlProps;
+SwiperCore.use([EffectFade,Navigation,Pagination]);
 
 class Landing extends React.Component<Props> {
     public componentDidMount() {
@@ -97,14 +108,7 @@ class Landing extends React.Component<Props> {
         return (
             <div className="pg-landing-screen__market-info">
                 <div className="pg-landing-screen__market-info__wrap">
-                        <img src="../../assets/images/landing/20up.jpg" alt="Slide 1"></img>
-                    <div className="pg-landing-screen__market-info__wrap__title">
-                        <h1>{this.translate('page.body.landing.marketInfo.title.text1')}</h1>
-                        <h1>{this.translate('page.body.landing.marketInfo.title.text2')}</h1>
-                        <Link to="/trading" className="landing-button">
-                            {this.translate('page.body.landing.marketInfo.title.button')}
-                        </Link>
-                    </div>
+
                     <MarketsTable />
                 </div>
             </div>
@@ -299,6 +303,11 @@ class Landing extends React.Component<Props> {
         return (
             <div className="pg-landing-screen">
                 {this.renderHeader()}
+				 <Swiper spaceBetween={30} effect={'fade'} navigation={true} pagination={{
+				  "clickable": true
+				}} className="mySwiper">
+				  <SwiperSlide><img src="https://swiperjs.com/demos/images/nature-1.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-2.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-3.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-4.jpg" /></SwiperSlide>
+				  </Swiper>
                 {this.renderMarketInfoBlock()}
                 {this.renderPlatformInfoBlock()}
                 {this.renderRegisterBlock()}
