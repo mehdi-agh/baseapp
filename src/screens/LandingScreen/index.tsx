@@ -306,7 +306,7 @@ class Landing extends React.Component<Props> {
 				 <Swiper spaceBetween={30} effect={'fade'} navigation={true} pagination={{
 				  "clickable": true
 				}} className="mySwiper">
-				  <SwiperSlide><img src="https://swiperjs.com/demos/images/nature-1.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-2.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-3.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-4.jpg" /></SwiperSlide>
+				  <SwiperSlide><img src="https://mesh.llc/xe/20up.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/22up.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/72up.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/60up.jpg" /></SwiperSlide>
 				  </Swiper>
                 {this.renderMarketInfoBlock()}
                 {this.renderPlatformInfoBlock()}
