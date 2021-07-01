@@ -16,6 +16,7 @@ import SwiperCore, {
   EffectFade,Navigation,Pagination
 } from 'swiper/core';
 
+import mainLogo from'../../assets/images/logo.png';
 
 import {
     RootState,
@@ -73,7 +74,8 @@ class Landing extends React.Component<Props> {
                 <div className="pg-landing-screen__header">
                     <div className="pg-landing-screen__header__wrap">
                         <div className="pg-landing-screen__header__wrap__left" onClick={e => this.handleScrollTop()}>
-                            <LogoIcon />
+							<img className="pg-landing-mainLogo" src={mainLogo}/>
+                            <LogoIcon /> 
                         </div>
                         <div className="pg-landing-screen__header__wrap__right">
                             <Link to="/profile" className="landing-button">
@@ -89,6 +91,7 @@ class Landing extends React.Component<Props> {
             <div className="pg-landing-screen__header">
                 <div className="pg-landing-screen__header__wrap">
                     <div className="pg-landing-screen__header__wrap__left" onClick={e => this.handleScrollTop()}>
+						<img className="pg-landing-mainLogo" src={mainLogo}/>
                         <LogoIcon />
                     </div>
                     <div className="pg-landing-screen__header__wrap__right">
@@ -260,6 +263,7 @@ class Landing extends React.Component<Props> {
             <div className="pg-landing-screen__footer">
                 <div className="pg-landing-screen__footer__wrap">
                     <div className="pg-landing-screen__footer__wrap__left" onClick={e => this.handleScrollTop()}>
+						<img className="pg-landing-mainLogo" src={mainLogo}/>
                         <LogoIcon />
                     </div>
                     <div className="pg-landing-screen__footer__wrap__navigation">
@@ -303,9 +307,9 @@ class Landing extends React.Component<Props> {
         return (
             <div className="pg-landing-screen">
                 {this.renderHeader()}
-				 <Swiper spaceBetween={30} effect={'fade'} navigation={true} pagination={{
-				  "clickable": true
-				}} className="mySwiper">
+				 <Swiper autoHeight={true} spaceBetween={20} navigation={true} pagination={{
+					  "clickable": true
+					}} className="mySwiper">
 				  <SwiperSlide><img src="https://mesh.llc/xe/20up.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/22up.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/72up.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/60up.jpg" /></SwiperSlide>
 				  </Swiper>
                 {this.renderMarketInfoBlock()}
