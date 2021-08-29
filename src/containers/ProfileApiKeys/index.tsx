@@ -235,7 +235,7 @@ class ProfileApiKeysComponent extends React.Component<Props, ProfileApiKeysState
     private renderModalBody = () => {
         const {otpCode, codeFocused} = this.state;
         const { modal } = this.props;
-       // const secret = (modal && modal.apiKey) ? modal.apiKey.secret : '';
+        const secret = (modal && modal.apiKey) ? modal.apiKey.data.secret : '';
         const emailGroupClass = cr('cr-email-form__group', {
             'cr-email-form__group--focused': codeFocused,
         });
@@ -296,7 +296,7 @@ class ProfileApiKeysComponent extends React.Component<Props, ProfileApiKeysState
                                 <CopyableTextField
                                   className="pg-copyable-text-field__input"
                                   fieldId={'secret_key-id'}
-                                  value={(modal.apiKey && modal.apiKey.secret.data.value) || ''}
+                                  value={secret || ''}
                                   copyButtonText={this.t('page.body.profile.content.copyLink')}
                                   label={this.t('page.body.profile.apiKeys.modal.secret_key')}
                                 />
