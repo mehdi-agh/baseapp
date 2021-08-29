@@ -235,7 +235,7 @@ class ProfileApiKeysComponent extends React.Component<Props, ProfileApiKeysState
     private renderModalBody = () => {
         const {otpCode, codeFocused} = this.state;
         const { modal } = this.props;
-        const secret = (modal && modal.apiKey) ? modal.apiKey.secret : '';
+       // const secret = (modal && modal.apiKey) ? modal.apiKey.secret : '';
         const emailGroupClass = cr('cr-email-form__group', {
             'cr-email-form__group--focused': codeFocused,
         });
