@@ -1,6 +1,6 @@
 import React, { FC, ReactElement, useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { LogoIcon } from '../../assets/images/LogoIcon';
+import { LogoIcon } from'../../assets/images/logo.png';
 import { selectApplyWindowEnvsTriggerState } from '../../modules';
 import { CustomizationSettingsInterface, LogoInterface } from '../../themes';
 
