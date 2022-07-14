@@ -29,16 +29,16 @@ export const DocumentationHeader: React.FC = () => {
                     {"info@meshtek.com.tr"}
                 </a>
             </div>
-            <div className="pg-documentation-header__license">
-                <span>{intl.formatMessage({ id: 'page.documentation.header.license.title' })}</span>
-                <a
-                    href={documentation?.info?.license?.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    {documentation?.info?.license?.url}
-                </a>
-            </div>
+     //       <div className="pg-documentation-header__license">
+     //           <span>{intl.formatMessage({ id: 'page.documentation.header.license.title' })}</span>
+     //           <a
+     //               href={documentation?.info?.license?.url}
+     //               target="_blank"
+     //               rel="noopener noreferrer"
+      //          >
+       //             {documentation?.info?.license?.url}
+        //        </a>
+         //   </div>
         </div>
     );
 };
