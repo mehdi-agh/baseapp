@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useIntl } from 'react-intl';
-import { useSelector } from 'react-redux';
+//import { useSelector } from 'react-redux';
 import { selectDocumentationData } from '../../../modules';
 
 export const DocumentationHeader: React.FC = () => {
