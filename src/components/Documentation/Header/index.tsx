@@ -5,7 +5,7 @@ import { selectDocumentationData } from '../../../modules';
 
 export const DocumentationHeader: React.FC = () => {
     const intl = useIntl();
-    const documentation = useSelector(selectDocumentationData);
+   // const documentation = useSelector(selectDocumentationData);
 
     return (
         <div className="pg-documentation-item pg-documentation-header">
