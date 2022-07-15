@@ -9,7 +9,7 @@ export const DocumentationHeader: React.FC = () => {
 
     return (
         <div className="pg-documentation-item pg-documentation-header">
-            <h3>{'mSamex USER API V2'}</h3>
+            <h3>"mSamex USER API V2"</h3>
             <div className="pg-documentation-header__description">
                 <span>"API for mSamex exchange"</span>
             </div>
