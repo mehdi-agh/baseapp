@@ -13,7 +13,7 @@ import "swiper/components/effect-fade/effect-fade.min.css"
 import "swiper/components/navigation/navigation.min.css"
 import "swiper/components/pagination/pagination.min.css"
 import SwiperCore, {
-  EffectFade,Navigation,Pagination,Height
+  EffectFade,Navigation,Pagination
 } from 'swiper/core';
 
 import mainLogo from'../../assets/images/logo.png';
@@ -307,7 +307,7 @@ class Landing extends React.Component<Props> {
         return (
             <div className="pg-landing-screen">
                 {this.renderHeader()}
-				 <Swiper Height={640} spaceBetween={20} navigation={true} pagination={{
+				 <Swiper spaceBetween={20} navigation={true} pagination={{
 					  "clickable": true
 					}} className="mySwiper">
 				  <SwiperSlide><img src="https://mesh.llc/xe/89.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/20up.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/22up.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/72up.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/60up.jpg" /></SwiperSlide>
