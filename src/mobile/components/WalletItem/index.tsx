@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { CryptoIcon } from '../../../components/CryptoIcon';
+//import { CryptoIcon } from '../../../components/CryptoIcon';
 import { Decimal } from '../../../components/Decimal';
 import { DEFAULT_CCY_PRECISION } from '../../../constants';
 import { areEqualSelectedProps } from '../../../helpers/areEqualSelectedProps';
