@@ -16,7 +16,6 @@ const WalletItemComponent = (props: Props) => {
             name,
             balance = 0,
             fixed = DEFAULT_CCY_PRECISION,
-            iconUrl,
         },
     } = props;
 
