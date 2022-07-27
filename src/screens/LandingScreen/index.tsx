@@ -231,7 +231,7 @@ class Landing extends React.Component<Props> {
                         <h2>{this.translate('page.body.landing.tradeOnTheGo.item.text1')}</h2>
                         <h2>{this.translate('page.body.landing.tradeOnTheGo.item.text2')}</h2>
                         <h2>{this.translate('page.body.landing.tradeOnTheGo.item.text3')}</h2>
-                        <Link to="/trading/" className="landing-button">
+                        <Link to="https://onelink.to/69qkm2" className="landing-button">
                             {this.translate('page.body.landing.tradeOnTheGo.item.button')}
                         </Link>
                     </div>
