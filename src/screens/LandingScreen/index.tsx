@@ -307,10 +307,10 @@ class Landing extends React.Component<Props> {
         return (
             <div className="pg-landing-screen">
                 {this.renderHeader()}
-				 <Swiper spaceBetween={20} navigation={true} pagination={{
-					  "clickable": true
+				 <Swiper spaceBetween={8} navigation={true} pagination={{
+					  "clickable": false
 					}} className="mySwiper">
-				  <SwiperSlide><img src="https://mesh.llc/xe/89.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/20up.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/22up.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/72up.jpg" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/60up.jpg" /></SwiperSlide>
+				  <SwiperSlide><img src="https://mesh.llc/xe/samslide2.png" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/samslide1.png" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/samslide0.png" /></SwiperSlide>
 				  </Swiper>
                 {this.renderMarketInfoBlock()}
                 {this.renderPlatformInfoBlock()}
