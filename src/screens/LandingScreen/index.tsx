@@ -285,14 +285,14 @@ class Landing extends React.Component<Props> {
                     </div>
                     <div className="pg-landing-screen__footer__wrap__social">
                         <div className="pg-landing-screen__footer__wrap__social__row">
-                            <img src={TelegramIcon} alt="Telegram" />
-                            <img src={LinkedInIcon} alt="LinkedIn" />
-                            <img src={TwitterIcon} alt="Twitter" />
-                            <img src={YouTubeIcon} alt="YouTube" />
+				<a href="https://t.me/msamex"><img src={TelegramIcon} alt="Telegram" /></a>
+				<a href="https://www.linkedin.com/company/msamex"><img src={LinkedInIcon} alt="LinkedIn" /></a>
+				<a href="https://twitter.com/MsamexE"><img src={TwitterIcon} alt="Twitter" /></a>
+				<a href="https://www.youtube.com/c/Meshtrade"><img src={YouTubeIcon} alt="YouTube" /></a>
                         </div>
                         <div className="pg-landing-screen__footer__wrap__social__row">
                             <img src={RedditIcon} alt="Reddit" />
-                            <img src={FacebookIcon} alt="Facebook" />
+				<a href="https://www.facebook.com/msamexe"><img src={FacebookIcon} alt="Facebook" /></a>
                             <img src={MediumIcon} alt="MediumIcon" />
                             <img src={CoinMarketIcon} alt="CoinMarket" />
                         </div>
