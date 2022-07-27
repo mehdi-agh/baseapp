@@ -37,7 +37,6 @@ class ProfileComponent extends React.Component<RouterProps, IntlProps> {
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
-                         <!--   <ProfileVerification/> -->
                         </div>
                     </div>
                 </div>
