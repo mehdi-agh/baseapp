@@ -25,16 +25,6 @@ const ProfileMobileScreenComponent: React.FC = () => {
 
     const mainLinks = [
         {
-            titleKey: 'page.mobile.profileLinks.main.verification',
-            route: '/profile/verification',
-            children: (
-                <div>
-                    <span className="color-accent">{intl.formatMessage({id: 'page.mobile.profileLinks.link.verification'}, {level: user.level})}</span>
-                    <ChevronIcon />
-                </div>
-            ),
-        },
-        {
             titleKey: 'page.mobile.profileLinks.main.2fa',
             route: '/profile/2fa',
             state: {
