@@ -123,11 +123,11 @@ class Landing extends React.Component<Props> {
             <div className="pg-landing-screen__platform-info">
                 <div className="pg-landing-screen__platform-info__wrap">
                     <div className="pg-landing-screen__platform-info__wrap__item">
-                        <span>{this.translate('page.body.landing.platformInfo.item.first.value')}</span>
+                        <span>12</span>
                         <span>{this.translate('page.body.landing.platformInfo.item.first.title')}</span>
                     </div>
                     <div className="pg-landing-screen__platform-info__wrap__item">
-                        <span>{this.translate('page.body.landing.platformInfo.item.second.value')}</span>
+                        <span>$1.5M</span>
                         <span>{this.translate('page.body.landing.platformInfo.item.second.title')}</span>
                     </div>
                     <div className="pg-landing-screen__platform-info__wrap__item">
