@@ -236,7 +236,7 @@ class Landing extends React.Component<Props> {
                         </Link>
 			    <table>
     <tbody><tr>
-	    <td><a href="https://apps.apple.com/us/app/msamex-exchange/id1570427773"><img width="150" height="48" src="https://mesh.llc/xe/ios.png"></a><a href="https://play.google.com/store/apps/details?id=com.mesh.msamexexchange"><img width="150" height="48" src="https://mesh.llc/xe/android.png"></a></td></tr></tbody></table>
+	    <td><a href="https://apps.apple.com/us/app/msamex-exchange/id1570427773"><img width="150" height="48" src="https://mesh.llc/xe/ios.png" /></a><a href="https://play.google.com/store/apps/details?id=com.mesh.msamexexchange"><img width="150" height="48" src="https://mesh.llc/xe/android.png" /></a></td></tr></tbody></table>
                     </div>
                 </div>
             </div>
