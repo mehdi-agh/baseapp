@@ -234,6 +234,9 @@ class Landing extends React.Component<Props> {
                         <Link to="https://onelink.to/69qkm2" className="landing-button">
                             {this.translate('page.body.landing.tradeOnTheGo.item.button')}
                         </Link>
+			    <table>
+    <tbody><tr>
+	    <td><a href="https://apps.apple.com/us/app/msamex-exchange/id1570427773"><img width="150" height="48" src="https://mesh.llc/xe/ios.png"></a><a href="https://play.google.com/store/apps/details?id=com.mesh.msamexexchange"><img width="150" height="48" src="https://mesh.llc/xe/android.png"></a></td></tr></tbody></table>
                     </div>
                 </div>
             </div>
@@ -310,7 +313,7 @@ class Landing extends React.Component<Props> {
 				 <Swiper spaceBetween={8} navigation={true} pagination={{
 					  "clickable": false
 					}} className="mySwiper">
-				  <SwiperSlide><img src="https://mesh.llc/xe/samslide00.png" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/samslide2.png" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/samslide1.png" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/samslide0.png" /></SwiperSlide>
+				  <SwiperSlide><img src="https://mesh.llc/xe/samslide00.png" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/samslide01.png" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/samslide2.png" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/samslide1.png" /></SwiperSlide><SwiperSlide><img src="https://mesh.llc/xe/samslide0.png" /></SwiperSlide>
 				  </Swiper>
                 {this.renderMarketInfoBlock()}
                 {this.renderPlatformInfoBlock()}
