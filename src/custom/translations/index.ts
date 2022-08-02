@@ -1,5 +1,7 @@
 import { ru } from './ru';
+import { tr } from './tr';
+
 
 export const customLanguageMap = {
-    ru,
+    tr,ru
 };
