@@ -273,15 +273,15 @@ class Landing extends React.Component<Props> {
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
                             <Link to="/trading/">{this.translate('page.body.landing.footer.exchange')}</Link>
                             <Link to="/wallets">{this.translate('page.body.landing.footer.wallets')}</Link>
-                            <Link to="/">{this.translate('page.body.landing.footer.fees')}</Link>
+                            <a href="https://msamex.freshdesk.com/support/solutions/articles/150000001498-msamex-cryptocurrency-exchange-fees">{this.translate('page.body.landing.footer.fees')}</a>
                         </div>
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
-                            <Link to="/">{this.translate('page.body.landing.footer.faq')}</Link>
-                            <a href="mailto:support@msamex.com">{this.translate('page.body.landing.footer.support')}</a>
+                            <a href="https://msamex.freshdesk.com/support/solutions/folders/150000031641">{this.translate('page.body.landing.footer.faq')}</a>
+                            <a href="https://msamex.freshdesk.com/support/home">{this.translate('page.body.landing.footer.support')}</a>
                             <Link to="/">{this.translate('page.body.landing.footer.privacy')}</Link>
                         </div>
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
-                            <Link to="/">{this.translate('page.body.landing.footer.about')}</Link>
+                            <a href="https://msamex.freshdesk.com/support/solutions/articles/150000001510-about-msamex">{this.translate('page.body.landing.footer.about')}</a>
                             <Link to="/">{this.translate('page.body.landing.footer.community')}</Link>
                             <Link to="/">{this.translate('page.body.landing.footer.info')}</Link>
                         </div>
