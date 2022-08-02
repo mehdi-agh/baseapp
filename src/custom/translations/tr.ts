@@ -96,7 +96,7 @@ export const en = {
     'page.body.landing.header.button2': 'giriş yap',
     'page.body.landing.header.button3': 'Kayıt ol',
 
-    'page.body.landing.marketInfo.title.text1': 'mSamex'e hoş geldiniz.',
+    'page.body.landing.marketInfo.title.text1': 'mSamex e hoş geldiniz.',
     'page.body.landing.marketInfo.title.text2': 'Dijital para birimini satın alın, satın ve ticaret yapın.',
     'page.body.landing.marketInfo.title.button': 'ticarete başla',
 
@@ -123,7 +123,7 @@ export const en = {
     'page.body.landing.features.features.item3.text': 'Çalışma alanınızı ihtiyaçlarınıza göre düzenleyin: düzeninizi oluşturun, temalar arasında seçim yapın, bildirimleri ve veri tercihlerini ayarlayın.',
     'page.body.landing.features.features.item4.text': 'Kullanıcı bilgilerinin ve fonlarının güvenliği birinci önceliğimizdir. Güvenlik özelliklerimiz ve entegrasyonlarımız hakkında daha fazla bilgi edinmek için bizimle iletişime geçin.',
     'page.body.landing.features.features.item5.text': 'Kriptonun gücüne inanan küresel bir topluluğa katılın.',
-    'page.body.landing.features.features.item6.text': 'Websocket özet akışımız, gerçek zamanlı piyasa verilerine kolayca erişmenizi sağlarken, işlem API'miz güvenli, programlı işlem botları geliştirmenize olanak tanır.',
+    'page.body.landing.features.features.item6.text': 'Websocket özet akışımız, gerçek zamanlı piyasa verilerine kolayca erişmenizi sağlarken, işlem API miz güvenli, programlı işlem botları geliştirmenize olanak tanır.',
 
     'page.body.landing.tradeOnTheGo.item.title': 'Hareket halindeyken ticaret',
     'page.body.landing.tradeOnTheGo.item.text1': 'Platformumuz, herhangi bir cihazda işlem yapmak için optimize edilmiştir.',
@@ -189,8 +189,8 @@ export const en = {
     'page.body.wallets.tabs.withdraw.modal.button.cancel': 'İptal',
     'page.body.wallets.tabs.withdraw.modal.button.withdraw': 'Geri çekil',
 
-    'page.body.wallets.tabs.withdraw.content.enable2fa': 'Geri çekmek için 2FA'yı etkinleştirmeniz gerekir',
-    'page.body.wallets.tabs.withdraw.content.enable2faButton': '2FA'yı etkinleştir',
+    'page.body.wallets.tabs.withdraw.content.enable2fa': 'Geri çekmek için 2FA yı etkinleştirmeniz gerekir',
+    'page.body.wallets.tabs.withdraw.content.enable2faButton': '2FA yı etkinleştir',
 
     'success.beneficiaries.created': 'Faydalanıcılar: başarıyla oluşturuldu',
     'success.beneficiaries.activated': 'Faydalanıcılar: başarıyla etkinleştirildi',
@@ -235,7 +235,7 @@ export const en = {
     'page.body.wallets.beneficiaries.confirmationModal.header': 'Yeni adresi onayla',
     'page.body.wallets.beneficiaries.confirmationModal.body.text': 'Size bir onay kodu pini içeren bir e-posta gönderdik, lütfen yeni adresi kaydetmek için aşağıya girin:',
     'page.body.wallets.beneficiaries.confirmationModal.body.confirmationModalCode': 'pin kodu',
-    'page.body.wallets.beneficiaries.confirmationModal.body.resendButton': 'PIN'i yeniden gönder',
+    'page.body.wallets.beneficiaries.confirmationModal.body.resendButton': 'PIN i yeniden gönder',
     'page.body.wallets.beneficiaries.confirmationModal.body.button': 'Onayla',
 
     'page.body.wallets.beneficiaries.tipAddress': 'Adres',
@@ -376,8 +376,8 @@ export const en = {
     'page.body.profile.apiKeys.modal.secret_key_info': 'Bu bilgiler yalnızca bir kez gösterilecek ve kaybolduğunda geri alınamaz..',
     'page.body.profile.apiKeys.modal.secret_key_store': 'Lütfen düzgün bir şekilde saklayın.',
     'page.body.profile.apiKeys.modal.note': 'not',
-    'page.body.profile.apiKeys.modal.note_content': `Varlık kaybını önlemek için lütfen Gizli Anahtarınızı ve Özel Anahtarınızı başkalarına söylemeyin.\
-  Gizli Anahtarınızı unutursanız, lütfen silin ve yeni bir Gizli Anahtar çifti için başvurun..`,
+    'page.body.profile.apiKeys.modal.note_content': 'Varlık kaybını önlemek için lütfen Gizli Anahtarınızı ve Özel Anahtarınızı başkalarına söylemeyin.\
+  Gizli Anahtarınızı unutursanız, lütfen silin ve yeni bir Gizli Anahtar çifti için başvurun..',
     'page.body.profile.apiKeys.modal.title': 'Uygulamadan 2fa kodunu girin',
     'page.body.profile.apiKeys.modal.label': '6 haneli Google Authenticator kodu',
     'page.body.profile.apiKeys.modal.placeholder': 'Kodu girin',
@@ -397,7 +397,7 @@ export const en = {
 
     'page.body.profile.header.accountActivity': 'Hesap haraketliliği',
     'page.body.profile.header.accountActivity.content.date': 'Tarih',
-    'page.body.profile.header.accountActivity.content.addressip': 'Adres IP'si',
+    'page.body.profile.header.accountActivity.content.addressip': 'Adres IP si',
     'page.body.profile.header.accountActivity.content.action': 'Eylem',
     'page.body.profile.header.accountActivity.content.result': 'Sonuç',
     'page.body.profile.header.accountActivity.content.userAgent': 'Kullanıcı Aracısı',
@@ -405,7 +405,7 @@ export const en = {
     'page.body.profile.content.action.login': 'Giriş yap',
     'page.body.profile.content.action.logout': 'Çıkış Yap',
     'page.body.profile.content.action.request2fa': '2FA için QR kodu isteyin',
-    'page.body.profile.content.action.enable2fa': '2FA'yı etkinleştir',
+    'page.body.profile.content.action.enable2fa': '2FA yı etkinleştir',
     'page.body.profile.content.action.login.2fa': '2FA ile giriş yapın',
     'page.body.profile.content.action.requestPasswordReset': 'Şifre sıfırlama isteği',
     'page.body.profile.content.action.passwordReset': 'Parola sıfırlama',
@@ -426,10 +426,10 @@ export const en = {
     'page.body.profile.verification.profile.subtitle': ' ',
     'page.body.profile.verification.profile.rejected.tooltip': 'Profiliniz reddedildi',
     'page.body.profile.verification.document.title': 'Kimliginizi dogrulayin',
-    'page.body.profile.verification.document.subtitle': 'Para Çekme sınırını 10 BTC'ye yükseltin',
+    'page.body.profile.verification.document.subtitle': 'Para Çekme sınırını 10 BTC ye yükseltin',
     'page.body.profile.verification.document.rejected.tooltip': 'Kimliğiniz reddedildi',
     'page.body.profile.verification.address.title': 'İkamet belgesini doğrulayın',
-    'page.body.profile.verification.address.subtitle': 'Para Çekme sınırını 100 BTC'ye yükseltin',
+    'page.body.profile.verification.address.subtitle': 'Para Çekme sınırını 100 BTC ye yükseltin',
     'page.body.profile.verification.address.rejected.tooltip': 'İkamet belgeniz reddedildi',
     'page.body.profile.verification.pending': 'Askıda olması',
     'page.body.profile.verification.reverify': 'yeniden doğrula',
@@ -442,13 +442,13 @@ export const en = {
     'page.body.profile.verification.progress.tooltip.phone.default': '2. seviyeye geçmek ve Mevduat ve İşlemlere izin vermek için Telefon numarasını doğrulayın',
     'page.body.profile.verification.progress.tooltip.phone.rejected': 'Telefonunuz reddedildi',
     'page.body.profile.verification.progress.tooltip.phone.pending': 'Telefon numarası doğrulaması 1-3 iş günü sürebilir.',
-    'page.body.profile.verification.progress.tooltip.profile.default': 'Seviye 3'ü almak için profilinizi tamamlayın ve Para Çekme sınırını 1 BTC'ye yükseltin',
+    'page.body.profile.verification.progress.tooltip.profile.default': 'Seviye 3 ü almak için profilinizi tamamlayın ve Para Çekme sınırını 1 BTC ye yükseltin',
     'page.body.profile.verification.progress.tooltip.profile.rejected': 'Profiliniz reddedildi',
     'page.body.profile.verification.progress.tooltip.profile.pending': 'Profil doğrulaması 1-3 iş günü sürebilir.',
-    'page.body.profile.verification.progress.tooltip.document.default': '4. seviyeyi elde etmek için kimliğinizi doğrulayın ve Para Çekme sınırını 10 BTC'ye yükseltin',
+    'page.body.profile.verification.progress.tooltip.document.default': '4. seviyeyi elde etmek için kimliğinizi doğrulayın ve Para Çekme sınırını 10 BTC ye yükseltin',
     'page.body.profile.verification.progress.tooltip.document.rejected': 'Kimliğiniz reddedildi',
     'page.body.profile.verification.progress.tooltip.document.pending': 'Kimlik doğrulama 1-3 iş günü sürebilir.',
-    'page.body.profile.verification.progress.tooltip.address.default': 'Seviye 5 almak için İkamet Kanıtını doğrulayın ve Para Çekme sınırını 100 BTC'ye yükseltin',
+    'page.body.profile.verification.progress.tooltip.address.default': 'Seviye 5 almak için İkamet Kanıtını doğrulayın ve Para Çekme sınırını 100 BTC ye yükseltin',
     'page.body.profile.verification.progress.tooltip.address.rejected': 'İkamet belgeniz reddedildi',
     'page.body.profile.verification.progress.tooltip.address.pending': 'İkamet kanıtı doğrulaması 1-3 iş günü sürebilir.',
 
@@ -554,7 +554,7 @@ export const en = {
 
     'page.header.signUp': 'Üye ol',
     'page.header.signUp.username.minLength.error': 'Lütfen daha fazla karakter girin. Minimum karakter sayısı 4',
-    'page.header.signUp.username.maxLength.error': 'Lütfen daha az karakter girin. Maksimum karakter sayısı 12'dir',
+    'page.header.signUp.username.maxLength.error': 'Lütfen daha az karakter girin. Maksimum karakter sayısı 12 dir',
     'page.header.signUp.username.uniqueness.error': 'Bu kullanıcı adı zaten alınmış',
     'page.header.signUp.email': 'E-posta',
     'page.header.signUp.email.message.error': 'e-posta geçersiz',
@@ -706,8 +706,8 @@ export const en = {
     'resource.user.no_activity': 'Hiçbir etkinlik kaydedilmedi veya yanlış konu',
     'resource.profile.not_exist': 'Kullanıcının profili yok',
     'resource.profile.exist': 'Profil zaten var',
-    'resource.api_key.2fa_disabled': 'Yalnızca 2FA'nın etkin olduğu hesaplara izin verilir',
-    'resource.api_key.missing_otp': 'Hesap 2FA'yı etkinleştirdi ancak OTP kodu eksik',
+    'resource.api_key.2fa_disabled': 'Yalnızca 2FA nın etkin olduğu hesaplara izin verilir',
+    'resource.api_key.missing_otp': 'Hesap 2FA yı etkinleştirdi ancak OTP kodu eksik',
     'resource.api_key.invalid_otp': 'OTP kodu geçersiz',
     'resource.phone.twillio': 'Twilio İstemcisinde bir sorun var',
     'resource.phone.invalid_num': 'Telefon numarası geçersiz',
@@ -740,7 +740,7 @@ export const en = {
     'identity.session.not_active': 'Hesabınız aktif değil',
     'identity.session.banned': 'Hesabınız yasaklandı',
     'identity.session.invalid_params': 'Geçersiz e-posta veya şifre',
-    'identity.session.missing_otp': 'Hesap 2FA'yı etkinleştirdi ancak OTP kodu eksik',
+    'identity.session.missing_otp': 'Hesap 2FA yı etkinleştirdi ancak OTP kodu eksik',
     'identity.session.invalid_otp': 'OTP kodu geçersiz',
 
     'username.taken': 'Bu kullanıcı adı zaten alınmış',
@@ -761,12 +761,12 @@ export const en = {
     'totp.error': 'OTP kodu geçersiz',
 
     'record.not_found': 'Kayıt bulunamadı',
-    'jwt.decode_and_verify': 'JWT'nin kodu çözülemedi ve doğrulanamadı',
+    'jwt.decode_and_verify': 'JWT nin kodu çözülemedi ve doğrulanamadı',
     'authz.invalid_session': 'Çerezlerin kodu çözülemedi',
     'authz.user_not_active': 'Kullanıcı aktif değil',
     'authz.invalid_signature': 'API Anahtarı başlığı \'imza\' geçersiz',
     'authz.apikey_not_active': 'API Anahtarı durumu \'etkin değil',
-    'authz.disabled_2fa': 'API Anahtarı sahibi 2FA'yı devre dışı bıraktı',
+    'authz.disabled_2fa': 'API Anahtarı sahibi 2FA yı devre dışı bıraktı',
     'authz.invalid_api_key_headers': 'Boş veya eksik API Anahtarı üstbilgileri',
     'authz.permission_denied': 'Yol reddedilenler listesine eklendi',
     'authz.unexistent_apikey': 'X-Auth-Apikey başlığı geçersiz',
@@ -863,7 +863,7 @@ export const en = {
     'account.withdraw.invalid_amount': 'Geçersiz para çekme miktarı',
     'account.withdraw.create_error': 'Geri çekme oluşturulamadı',
     'account.withdraw.invalid_otp': 'Geçersiz otp',
-    'account.withdraw.disabled_api': 'Para çekme API'si devre dışı bırakıldı',
+    'account.withdraw.disabled_api': 'Para çekme API si devre dışı bırakıldı',
 
     'account.beneficiary.invalid_pin': 'Geçersiz yararlanıcı etkinleştirme pini',
     'account.beneficiary.cant_resend_within_1_minute': 'Aktivasyon pini 1 dakika içinde tekrar gönderilemiyor',
@@ -928,7 +928,7 @@ export const en = {
     // metamask
     'metamask.success.connected': '[MetaMask] Hesap bağlandı',
 
-    'metamask.error.noExtension': '[MetaMask] Ethereum tarayıcı uzantısı algılanmadı, MetaMask'i masaüstüne yükleyin veya mobil cihazlarda bir dApp tarayıcısından ziyaret edin',
+    'metamask.error.noExtension': '[MetaMask] Ethereum tarayıcı uzantısı algılanmadı, MetaMask i masaüstüne yükleyin veya mobil cihazlarda bir dApp tarayıcısından ziyaret edin',
     'metamask.error.unsupportedNetwork': '[MetaMask] Desteklenmeyen bir ağa bağlısınız',
     'metamask.error.unauthorized': '[MetaMask] Lütfen bu web sitesini Ethereum hesabınıza erişmesi için yetkilendirin',
     'metamask.error.unknown': '[MetaMask] Bilinmeyen bir hata oluştu. Daha fazla ayrıntı için konsolu kontrol edin',
