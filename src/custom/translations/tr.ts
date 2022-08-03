@@ -1,7 +1,7 @@
 import { LangType } from '../../translations';
 import { nationalitiesNames } from '../../translations/nationalities';
 
-export const ru: LangType = {
+export const tr: LangType = {
     'page.header.navbar.signIn': 'kayıt ol',
     'page.header.navbar.trade': 'Ticaret',
     'page.header.navbar.wallets': 'Cüzdanlar',
