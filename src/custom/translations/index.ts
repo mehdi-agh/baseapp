@@ -3,5 +3,6 @@ import { tr } from './tr';
 
 
 export const customLanguageMap = {
-    tr,ru
+    tr,
+    ru,
 };
