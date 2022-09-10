@@ -294,9 +294,9 @@ class Landing extends React.Component<Props> {
 				<a href="https://www.instagram.com/msamexexchange/"><img src={InstagramIcon} alt="Instagram" /></a>
                         </div>
                         <div className="pg-landing-screen__footer__wrap__social__row">
-                            <img src={RedditIcon} alt="Reddit" />
+                            <a href="https://www.reddit.com/user/msamex"><img src={RedditIcon} alt="Reddit" /></a>
 				<a href="https://www.facebook.com/msamexexchange"><img src={FacebookIcon} alt="Facebook" /></a>
-                            <img src={MediumIcon} alt="MediumIcon" />
+				<a href="https://medium.com/msamex"><img src={MediumIcon} alt="MediumIcon" /></a>
                             <img src={CoinMarketIcon} alt="CoinMarket" />
                         </div>
                     </div>
