@@ -432,8 +432,7 @@ class WalletsComponent extends React.Component<Props, WalletsState> {
         }
         const { user: { level, otp }, wallets } = this.props;
         const wallet = wallets[selectedWalletIndex];
-        const { currency, fee } = wallet;
-        const type = "withdraws";
+        const { currency, fee, type } = wallet;
         const fixed = (wallet || { fixed: 0 }).fixed;
 
         const withdrawProps: WithdrawProps = {
