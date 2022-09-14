@@ -36,7 +36,7 @@ export function* historySaga(action: HistoryFetch) {
         }
         let updatedData = data;
 
-        if (type === 'trades') {
+        if (type === 'deposits') {
             updatedData = sliceArray(data, defaultStorageLimit());
         }
 
