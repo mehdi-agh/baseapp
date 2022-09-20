@@ -143,7 +143,7 @@ export const en = {
     'page.body.landing.footer.privacy': 'Privacy',
     'page.body.landing.footer.about': 'About us',
     'page.body.landing.footer.community': 'Community',
-    'page.body.landing.footer.info': 'Info',
+    'page.body.landing.footer.info': 'Whitepaper',
     'page.body.landing.footer.rights': 'Mesh Ltd © All rights reserved.',
 
     'pagy.body.footer.powered_by': 'Powered by',
