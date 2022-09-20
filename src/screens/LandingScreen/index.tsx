@@ -231,9 +231,9 @@ class Landing extends React.Component<Props> {
                         <h2>{this.translate('page.body.landing.tradeOnTheGo.item.text1')}</h2>
                         <h2>{this.translate('page.body.landing.tradeOnTheGo.item.text2')}</h2>
                         <h2>{this.translate('page.body.landing.tradeOnTheGo.item.text3')}</h2>
-                        <Link to="https://onelink.to/69qkm2" className="landing-button">
+                        <a href="https://onelink.to/69qkm2" className="landing-button">
                             {this.translate('page.body.landing.tradeOnTheGo.item.button')}
-                        </Link>
+                        </a>
 			    <table>
     <tbody><tr>
 	    <td><a href="https://apps.apple.com/us/app/msamex-exchange/id1570427773"><img width="150" height="48" src="https://mesh.llc/xe/ios.png" /></a><a href="https://play.google.com/store/apps/details?id=com.mesh.msamexexchange"><img width="150" height="48" src="https://mesh.llc/xe/android.png" /></a></td></tr></tbody></table>
