@@ -283,7 +283,7 @@ class Landing extends React.Component<Props> {
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
                             <a href="https://msamex.freshdesk.com/support/solutions/articles/150000001510-about-msamex">{this.translate('page.body.landing.footer.about')}</a>
                             <Link to="/">{this.translate('page.body.landing.footer.community')}</Link>
-                            <Link to="/">{this.translate('page.body.landing.footer.info')}</Link>
+                            <Link to="https://github.com/mSAMEX/Documentation/blob/main/Whitepaper-EN/SAMXFAEN.pdf">{this.translate('page.body.landing.footer.info')}</Link>
                         </div>
                     </div>
                     <div className="pg-landing-screen__footer__wrap__social">
